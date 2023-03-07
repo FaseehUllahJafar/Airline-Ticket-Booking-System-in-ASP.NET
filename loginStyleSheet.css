@@ -1,0 +1,68 @@
+﻿.containerStyle::before {
+    /* The image used */
+    background-image: url("Images/jahaaz.jpg");
+    /* Full height */
+    height: 100%;
+    width: 100%;
+    content: "";
+    position: absolute;
+    /* Center and scale the image nicely */
+    background-position: center;
+    z-index: -1;
+    filter: blur(10px);
+}
+
+.bodyContainer {
+    background-color:black;
+    height:100%;
+    
+    backface-visibility: visible;
+    margin-block:auto;
+    padding-block:1px;
+}
+.innerContainer{
+    margin:35rem;
+    padding:1rem;
+    background-color:transparent;
+    height:50%;
+}
+
+.usualtext{
+    color:whitesmoke;
+}
+
+.containerStyle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    padding-block: 100px;
+}
+
+.text {
+    color: WindowText;
+    
+}
+.textHeading {
+    text-align: center;
+    text-decoration: solid;
+    font: bolder;
+    display:inline-flex;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+.ButtonText{
+    color: darkgrey;
+}
+
+.image {
+    /*resize:block;*/
+    width: 95%;
+    image-rendering:optimizeQuality;
+
+}
+

@@ -1,0 +1,44 @@
+﻿.containerStyle::before {
+    /* The image used */
+    background-image: url("Images/jahaaz.jpg");
+    /* Full height */
+    height: 100%;
+    width: 100%;
+    content: "";
+    position: absolute;
+    /* Center and scale the image nicely */
+    background-position: center;
+    z-index: -1;
+    filter: blur(10px);
+    
+}
+.containerStyle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height:100%;
+    width:100%;
+    padding-block:100px;
+}
+.paraText{
+    font-display:block;
+    font-family:Andalus;
+    font-style:normal;
+    font-weight:300;
+    color: CaptionText;
+}
+.picSetNaiHoRhi_Container {
+    height: 100%;
+    position: center;
+    align-content: center;
+}
+
+.textHeading {
+    text-align: center;
+    text-decoration: solid;
+    font: bolder;
+    display:inline-flex;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
